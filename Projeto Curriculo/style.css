@@ -7,25 +7,48 @@ body {
     text-align: center;
 }
 
-#Objetivo {
-    line-height: 1.2;
+/* Estilo da seção de cabecalho */
+.cabecalho {
+    line-height: 1.5rem;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+/* Estilo da seção de objetivo */
+#objetivo {
+    line-height: 1.5;
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
 }
 
-#Texto {
-    line-height: 1.2;
-    margin-left: 50px;
-    margin-right: 50px;
+/* Estilo da seção de formação */
+.formacao {
+    line-height: 1.5;
+    /* Melhor legibilidade para textos mais longos */
+    max-width: 90%;
+    /* Limita a largura do conteúdo para maior responsividade */
+    margin: 0 auto;
+    /* Centraliza o conteúdo horizontalmente */
+    text-align: center;
+    /* Alinha o texto à esquerda para maior legibilidade */
+}
+
+/* Estilo da seção de texto referente experiencias */
+.texto {
+    line-height: 1.5;
+    margin: 0 5vw;
     text-align: justify;
 }
 
-ul {
-    text-align: center;
+/* Estilo da seção de habilidades - lista */
+#habilidades ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
 li {
-    display: inline-block;
     width: 125px;
 }
